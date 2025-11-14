@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./toastGenerator.js"></script>
+    
+    <script>
+        let myToastGenerator = new ToastGenerator()
+
+        setTimeout(() => {
+            myToastGenerator.danger('Error message');
+        }, 2500);
+
+        setTimeout(() => {
+            myToastGenerator.success('Success message')
+        }, 5000);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
