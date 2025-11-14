@@ -1,7 +1,7 @@
 class ToastGenerator{
     constructor(lang='en'){
-        this.language = lang;
-        console.log(this.language);
+        this.language = lang.toLowerCase();
+        
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', this.init);
         } else {
