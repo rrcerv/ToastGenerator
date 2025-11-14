@@ -10,7 +10,7 @@ Download the script and include it on your code base, through HTML script import
 
 Alternatively, you can use the raw file from GitHub.
 ```
-<script src="https://raw.githubusercontent.com/rrcerv/ToastGenerator/refs/heads/master/toastGenerator.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rrcerv/ToastGenerator/toastGenerator.min.js"></script>
 ```
 
 Declare a new instance of the ToastGenerator. You can pass the language as the 'lang' argument. If you pass 'PT', the language will be brazilian Portuguese. Anything else, the language will be english:
